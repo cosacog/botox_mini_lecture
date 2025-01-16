@@ -1,0 +1,31 @@
+@font-face {
+    /* フォントの名前 */
+    font-family: 'yu gothic'; 
+    /* フォントファイル */
+    /* src: url('YasashisaBold.otf') format('opentype'); */
+    src: local("Yu Gothic Medium");
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.reveal {
+  font-size: 36px;
+}
+
+.reveal h1 {
+  color: #880000;
+  font-size: 1.8em;
+  text-align: center
+}
+
+.reveal h2 {
+  color: #880000;
+  font-size: 1.2em;
+  text-align: center
+}
+
+.reveal h3 {
+  font-size: 1.2em;
+  text-align: center
+}
+

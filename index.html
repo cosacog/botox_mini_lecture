@@ -37,7 +37,7 @@
 
   <!-- Revealjs Theme -->
   
-  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/sky.css" id="theme">
   
   
 
@@ -47,6 +47,8 @@
 
 
   <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="custom.css">
   
 
    <!-- css list -->
@@ -94,8 +96,8 @@ output:
 
 
     
+    <section>
         <section >
-            
             <h2>内容</h2>
 <ol>
 <li>ボトックスとは
@@ -113,14 +115,9 @@ output:
 </ol>
 
             </section>
-    
-
-
-
-    
-        <section >
-            
-            <h2>ボトックスとは</h2>
+        
+            <section >
+                <h2>ボトックスとは</h2>
 <ul>
 <li>商品名です
 <ul>
@@ -143,6 +140,9 @@ output:
 </ul>
 
             </section>
+        
+
+    </section>
     
 
 
@@ -285,7 +285,7 @@ output:
 <li>運動神経から神経伝達物質(アセチルコリン)が放出され、筋肉の受容体で受けると筋収縮が起こります</li>
 <li>ボツリヌス毒素はこのアセチルコリンの放出を抑える働きをします</li>
 </ul>
-<p><img src="./figures/botox_mechanism.png" alt="height:350 center"></p>
+<p><img src="./figures/botox_mechanism.png" alt="h:350 center"></p>
 
             </section>
     
@@ -435,7 +435,7 @@ output:
         <section >
             
             <h2>施注風景</h2>
-<p><img src="./figures/echo_guide.jpg" alt="center h:550"></p>
+<p><img src="./figures/echo_guide.jpg" alt="center h:450"></p>
 
             </section>
     
@@ -445,13 +445,13 @@ output:
     
         <section >
             
-            <h2>なぜ黄色のシリンジと普通のシリンジが分かれている?</h2>
+            <h2>なぜ黄色と普通のシリンジが分かれている?</h2>
 <ul>
 <li>電気刺激用の針がロック式になっていて、通常のシリンジと互換性がありません</li>
 </ul>
-<p><img src="./figures/syringe.png" alt="center"></p>
+<p><img src="./figures/syringe.png" alt="center h:400"></p>
 <ul>
-<li>ロック式シリンジは高い(そうな)ので、必要な分(電気刺激する分)だけロック式を使(うように指導され)っています</li>
+<li>ロック式シリンジは高い(そうな)ので、必要な分(電気刺激する分)だけロック式を使(うように指導され)ています</li>
 </ul>
 
             </section>
@@ -464,7 +464,7 @@ output:
             
             <h2>溶解する生食の量はどうやって決まっている?</h2>
 <ul>
-<li>現在は1バイアル (基本50単位) 2ml(調製後)になるよう、2.1-2.2ml 生食を引いて<br>います</li>
+<li>現在は1バイアル (基本50単位) 2ml(調製後)になるよう、2.1-2.2ml 生食を引いています</li>
 <li>通常半分 (25単位=1ml)ずつ施注しています</li>
 <li>あまり厳密に刻んでないので、2.1-2.2ml生食を引いてもらえれば大丈夫です</li>
 <li>先の図で示したように生食だけでも(プラシーボ)効果があったり、薄めた方が広がるので、生食は多い方がよいのではないかという意見があります</li>
@@ -762,7 +762,7 @@ output:
       //#postMessage: true, // TODO : this can cause issues with the vscode api ???
       //#postMessageEvents: false,
       //#focusBodyOnPageVisibilityChange: true,
-      transition: 'default',
+      transition: 'slide',
       transitionSpeed: 'default',
       backgroundTransition: 'fade',
       //#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
